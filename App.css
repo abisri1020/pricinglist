@@ -1,0 +1,49 @@
+.App {
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.card {
+    height: 550px;
+    width: 320px;
+    text-align: center;
+    background: white;
+    opacity: 0.9;
+}
+
+.card:hover {
+    margin-top: 3px;
+    height: 550px;
+    width: 320px;
+    text-align: center;
+    background: white;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.pln {
+    color: grey;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.pri {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3.5rem;
+    padding: 0;
+}
+
+.fea {
+    text-align: left;
+    padding-left: 10px;
+}
